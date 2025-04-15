@@ -17,14 +17,27 @@
         <button class="mobile-menu-toggle" aria-label="Toggle navigation menu">☰</button>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">For Buyers</a></li>
-                <li><a href="#">For Suppliers</a></li>
+                <li><a href="#" data-translate-key="home">Home</a></li>
+                <li><a href="#" data-translate-key="about">About Us</a></li>
+                <li><a href="#" data-translate-key="services">Services</a></li>
+                <li><a href="#" data-translate-key="for-buyers">For Buyers</a></li>
+                <li><a href="#" data-translate-key="for-suppliers">For Suppliers</a></li>
             </ul>
         </nav>
-        <a href="#contact-us-section" class="cta-btn">Contact Us</a>
+        <div class="header-actions">
+            <div class="language-switcher">
+                <button data-lang="en" class="lang-option active" aria-label="Switch to English">
+                    <span class="lang-text">EN</span>
+                    <span class="flag">🇬🇧</span>
+                </button>
+                <span class="lang-separator">|</span>
+                <button data-lang="es" class="lang-option" aria-label="Switch to Spanish">
+                    <span class="lang-text">ES</span>
+                    <span class="flag">🇲🇽</span>
+                </button>
+            </div>
+            <a href="#contact-us-section" class="cta-btn" data-translate-key="contact-us">Contact Us</a>
+        </div>
     </div>
   </header>
 
@@ -35,11 +48,10 @@
         Your browser does not support the video tag.
     </video>
     <div class="hero-content">
-        <h1>Intelligent Export Growth for Latin America</h1> <!-- Headline emphasizes intelligence -->
-        <!-- Updated Tagline -->
-        <p class="tagline">We connect LATAM's finest producers with global buyers (Europe, Asia, ME) using cutting-edge market intelligence, expert sales facilitation, and dedicated customer success for long-term partnerships.</p>
+        <h1 data-translate-key="hero-title">Your Bridge to Global Markets: LATAM Exports, Amplified</h1>
+        <p data-translate-key="hero-subtitle">Connecting Latin America's finest producers with vetted global buyers through data-driven market intelligence, expert sales facilitation, and dedicated partnership success strategies.</p>
         <div class="cta-buttons">
-            <a href="#tabs-section" class="cta-primary">Discover Our Approach</a> <!-- Updated CTA -->
+            <a href="#tabs-section" class="cta-primary" data-translate-key="discover-approach">Expand Your Global Reach</a>
         </div>
     </div>
   </section>
@@ -47,15 +59,14 @@
   <section class="tabs-section" id="tabs-section">
     <section class="what-we-do-title">
       <div class="container">
-          <h2>Data-Driven Export Growth & Success</h2> <!-- Updated H2 -->
-          <!-- Updated Description emphasizing ongoing success and intelligence -->
-          <p>Dommio International leverages market intelligence and dedicated sales expertise to build profitable, sustainable export channels for Latin American suppliers into Europe, Asia, and the Middle East. We focus on creating lasting success, not just initial transactions.</p>
+          <h2 data-translate-key="data-driven-title">Intelligence-Powered Export Success</h2>
+          <p data-translate-key="data-driven-description">Dommio International transforms how Latin American suppliers access global markets by combining proprietary market intelligence with proven sales expertise. We build profitable, sustainable export channels that create lasting partnerships and continuous growth—not just one-time transactions.</p>
       </div>
     </section>
     <div class="container">
         <div class="tabs">
-            <div class="tab active" data-tab="suppliers">For Suppliers</div>
-            <div class="tab" data-tab="buyers">For Buyers</div>
+            <div class="tab active" data-tab="suppliers" data-translate-key="tab-suppliers">For Suppliers</div>
+            <div class="tab" data-tab="buyers" data-translate-key="tab-buyers">For Buyers</div>
         </div>
 
         <div id="suppliers-content" class="tab-content active">
@@ -63,33 +74,33 @@
                 <!-- Enhanced Supplier Services -->
                 <div class="service-box">
                     <i class="bi bi-graph-up-arrow service-icon"></i>
-                    <h3>Targeted Market Intelligence</h3> <!-- Added "Intelligence" -->
-                    <p>Identify your highest-potential export markets (Europe, Asia, ME) using proprietary data analysis and predictive insights.</p>
+                    <h3 data-translate-key="market-intelligence-title">Targeted Market Intelligence</h3>
+                    <p data-translate-key="market-intelligence-desc">Pinpoint your most lucrative global market opportunities using our proprietary data analysis and predictive insights, eliminating guesswork from your export strategy.</p>
                 </div>
                 <div class="service-box">
                      <i class="bi bi-binoculars-fill service-icon"></i>
-                    <h3>AI-Powered Buyer Prospecting</h3> <!-- Added "AI-Powered" -->
-                    <p>Strategic identification and qualification of international buyers actively seeking products like yours, powered by data insights.</p>
+                    <h3 data-translate-key="buyer-prospecting-title">AI-Powered Buyer Prospecting</h3>
+                    <p data-translate-key="buyer-prospecting-desc">Connect with pre-qualified international buyers actively seeking your products, reducing your sales cycle and increasing conversion rates through data-driven matching.</p>
                 </div>
                 <div class="service-box">
                     <i class="bi bi-headset service-icon"></i>
-                    <h3>Intelligence-Led Sales Outreach</h3> <!-- Added "Intelligence-Led" -->
-                    <p>Proactive, targeted engagement with vetted buyers, informed by market intelligence for maximum impact.</p>
+                    <h3 data-translate-key="sales-outreach-title">Intelligence-Led Sales Outreach</h3>
+                    <p data-translate-key="sales-outreach-desc">Maximize response rates and engagement through targeted communication strategies informed by market intelligence and buyer behavior analysis.</p>
                 </div>
                 <div class="service-box">
                      <i class="bi bi-file-earmark-check-fill service-icon"></i>
-                    <h3>Export Documentation Support</h3>
-                    <p>Navigate complex certifications and documentation smoothly with our expert guidance.</p>
+                    <h3 data-translate-key="documentation-title">Export Documentation Support</h3>
+                    <p data-translate-key="documentation-desc">Eliminate compliance barriers and accelerate market entry with expert guidance through complex certifications and international trade documentation.</p>
                 </div>
                 <div class="service-box">
                     <i class="bi bi-person-arms-up service-icon"></i>
-                    <h3>Expert Negotiation Support</h3>
-                    <p>Secure optimal terms and contracts leveraging our market knowledge and negotiation expertise.</p>
+                    <h3 data-translate-key="negotiation-title">Expert Negotiation Support</h3>
+                    <p data-translate-key="negotiation-desc">Achieve optimal deal terms and stronger contracts through our market knowledge and cultural negotiation expertise, protecting your interests while building trust.</p>
                 </div>
                 <div class="service-box">
                     <i class="bi bi-arrow-repeat service-icon"></i>
-                    <h3>Customer Success & Retention</h3> <!-- Renamed & Updated -->
-                    <p>Dedicated, proactive support focused on building long-term buyer relationships, ensuring satisfaction and driving repeat orders.</p>
+                    <h3 data-translate-key="customer-success-title">Customer Success & Retention</h3>
+                    <p data-translate-key="customer-success-desc">Transform first orders into lasting partnerships through proactive relationship management, driving repeat business and creating predictable revenue streams.</p>
                 </div>
             </div>
         </div>
@@ -99,33 +110,33 @@
                  <!-- Enhanced Buyer Services -->
                 <div class="service-box">
                     <i class="bi bi-compass-fill service-icon"></i>
-                    <h3>Insightful LATAM Sourcing</h3> <!-- Added "Insightful" -->
-                    <p>Discover unique, high-quality products using market trend analysis and our vetted network of LATAM suppliers.</p>
+                    <h3 data-translate-key="insightful-title">Insightful LATAM Sourcing</h3>
+                    <p data-translate-key="insightful-desc">Access unique, high-quality Latin American products that stand out in your market, identified through advanced trend analysis and our vetted supplier network.</p>
                 </div>
                 <div class="service-box">
                     <i class="bi bi-shield-check service-icon"></i>
-                    <h3>Rigorous Supplier Vetting</h3>
-                    <p>Data-backed evaluation of supplier reliability, capacity, quality standards, and export track record.</p>
+                    <h3 data-translate-key="vetting-title">Rigorous Supplier Vetting</h3>
+                    <p data-translate-key="vetting-desc">Minimize supply chain risks with our comprehensive evaluation of supplier reliability, capacity, quality standards, and export readiness using proprietary assessment methodologies.</p>
                 </div>
                 <div class="service-box">
                     <i class="bi bi-cart-check-fill service-icon"></i>
-                    <h3>Efficient Procurement Facilitation</h3>
-                    <p>Streamlined support through the procurement cycle, informed by best practices and market knowledge.</p>
+                    <h3 data-translate-key="procurement-title">Efficient Procurement Facilitation</h3>
+                    <p data-translate-key="procurement-desc">Reduce procurement cycle times and administrative burden through our streamlined process management, informed by best practices and local market knowledge.</p>
                 </div>
                 <div class="service-box">
                    <i class="bi bi-patch-check-fill service-icon"></i>
-                    <h3>Quality Assurance Coordination</h3>
-                    <p>Facilitating adherence to international standards and your specific quality requirements for consistent results.</p>
+                    <h3 data-translate-key="coordination-title">Quality Assurance Coordination</h3>
+                    <p data-translate-key="coordination-desc">Ensure product consistency and meet your specific quality requirements through coordinated standards implementation and verification across international boundaries.</p>
                 </div>
                 <div class="service-box">
                     <i class="bi bi-globe-americas service-icon"></i>
-                    <h3>Logistics & Compliance Liaison</h3>
-                    <p>Connecting you with trusted logistics partners and providing insights for smooth import compliance.</p>
+                    <h3 data-translate-key="logistics-title">Logistics & Compliance Liaison</h3>
+                    <p data-translate-key="logistics-desc">Navigate cross-border logistics and regulatory requirements seamlessly with our trusted partner network and specialized import compliance expertise.</p>
                 </div>
                 <div class="service-box">
                     <i class="bi bi-people-fill service-icon"></i>
-                    <h3>Ongoing Success Management</h3> <!-- Renamed & Updated -->
-                    <p>Proactive support focused on maximizing the value, reliability, and long-term success of your LATAM supply chain partnerships.</p>
+                    <h3 data-translate-key="ongoing-title">Ongoing Success Management</h3>
+                    <p data-translate-key="ongoing-desc">Develop reliable, high-performing LATAM supply chain partnerships that continuously deliver value through our dedicated success management approach.</p>
                 </div>
             </div>
         </div>
@@ -137,15 +148,14 @@
         <div class="why-work-with-us-header">
             <div class="why-work-with-us-title">
                 <h1 class="dreambig">
-                    BEYOND BROKERAGE,<br> <!-- Updated Line -->
-                    <span class="highlight">INTELLIGENT GROWTH.</span> <!-- Updated Line -->
+                    <span data-translate-key="beyond-brokerage">BEYOND BROKERAGE,</span><br>
+                    <span class="highlight" data-translate-key="intelligent-growth">INTELLIGENT GROWTH.</span>
                 </h1>
             </div>
             <div class="why-work-with-us-description">
-                <h3>YOUR STRATEGIC EXPORT PARTNER</h3>
-                <!-- Updated Description emphasizing intelligence and success focus -->
-                <p>At Dommio, we blend deep market intelligence with expert sales execution and a commitment to long-term customer success. We don't just connect buyers and sellers; we build sustainable, profitable global partnerships for Latin American businesses by focusing on strategic markets like Europe, Asia, and the Middle East. Our data-driven approach ensures smarter decisions and measurable results.</p>
-                <a href="#contact-us-section" class="cta-button">Request More Info</a>
+                <h3 data-translate-key="strategic-partner">YOUR STRATEGIC EXPORT PARTNER</h3>
+                <p data-translate-key="company-description">At Dommio, we transform Latin American exports through the powerful combination of deep market intelligence, expert sales execution, and committed customer success. Beyond simple connections, we architect sustainable, profitable global partnerships that deliver measurable results. Our data-driven approach enables smarter market entry strategies, stronger competitive positioning, and accelerated growth in diverse international markets.</p>
+                <a href="#contact-us-section" class="cta-button" data-translate-key="request-info">Request More Info</a>
             </div>
         </div>
         <div class="services-slider">
@@ -154,22 +164,22 @@
                     <div class="icon-placeholder">
                         <i class="bi bi-bullseye service-icon-large"></i>
                     </div>
-                    <h3>STRATEGIC MARKET ACCESS</h3> <!-- Renamed -->
-                    <p>Unlock high-value opportunities in Europe, Asia, and the Middle East, diversifying beyond traditional export destinations.</p>
+                    <h3 data-translate-key="market-access-title">STRATEGIC MARKET ACCESS</h3>
+                    <p data-translate-key="market-access-desc">Expand your reach into high-value global markets strategically selected to maximize your specific competitive advantages and diversify your export portfolio.</p>
                 </div>
                 <div class="service-item">
                     <div class="icon-placeholder">
                          <i class="bi bi-broadcast-pin service-icon-large"></i>
                     </div>
-                    <h3>EXPERT SALES EXECUTION</h3> <!-- Renamed -->
-                    <p>Leverage our proven sales processes and extensive network to connect effectively and close deals faster.</p>
+                    <h3 data-translate-key="sales-execution-title">EXPERT SALES EXECUTION</h3>
+                    <p data-translate-key="sales-execution-desc">Accelerate your sales cycle and boost conversion rates through our proven engagement processes and established global buyer network.</p>
                 </div>
                 <div class="service-item">
                     <div class="icon-placeholder">
                          <i class="bi bi-graph-up service-icon-large"></i>
                     </div>
-                    <h3>INTELLIGENCE-POWERED GROWTH</h3> <!-- Renamed -->
-                    <p>Utilize market analytics, AI-driven insights, and performance data to make smarter export decisions and maximize ROI.</p>
+                    <h3 data-translate-key="powered-growth-title">INTELLIGENCE-POWERED GROWTH</h3>
+                    <p data-translate-key="powered-growth-desc">Make data-driven export decisions that consistently outperform industry averages through AI-enhanced market analysis and performance optimization.</p>
                 </div>
             </div>
         </div>
@@ -179,45 +189,44 @@
   <section class="industries">
     <div class="container">
         <div class="section-title">
-            <h2>Industries We Empower</h2> <!-- Updated H2 -->
-            <!-- Updated Subtitle -->
-            <p>Connecting Latin American Excellence with Global Demand, Backed by Industry-Specific Intelligence</p>
+            <h2 data-translate-key="industries-title">Industries We Empower</h2>
+            <p data-translate-key="industries-subtitle">Connecting Latin American Excellence with Global Demand, Backed by Industry-Specific Intelligence</p>
         </div>
         <div class="process-steps">
           <div class="process-step">
               <div class="icon-container">
                   <i class="bi bi-basket3-fill industry-icon"></i>
               </div>
-              <h3>Fresh Produce</h3>
-              <p>Connecting premium fruits, vegetables, and specialty crops from LATAM farms to international tables.</p>
+              <h3 data-translate-key="fresh-produce-title">Fresh Produce</h3>
+              <p data-translate-key="fresh-produce-desc">Bringing premium LATAM fruits, vegetables, and specialty crops to international markets with logistics expertise that preserves quality and extends shelf life.</p>
           </div>
           <div class="process-step">
               <div class="icon-container">
                    <i class="bi bi-box-seam-fill industry-icon"></i>
               </div>
-              <h3>Processed Foods</h3>
-              <p>Bringing authentic flavors and innovative food products from Latin America to global consumers.</p>
+              <h3 data-translate-key="processed-foods-title">Processed Foods</h3>
+              <p data-translate-key="processed-foods-desc">Introducing global consumers to authentic Latin American flavors and innovative food products through strategic market positioning and cultural storytelling.</p>
           </div>
-          <div class="process-step"> <!-- Corrected class -->
+          <div class="process-step">
                 <div class="icon-container">
                     <i class="bi bi-cup-straw industry-icon"></i>
                 </div>
-                <h3>Beverages</h3>
-                <p>Facilitating export of premium spirits (tequila, mezcal), specialty coffee, and unique LATAM beverages.</p>
+                <h3 data-translate-key="beverages-title">Beverages</h3>
+                <p data-translate-key="beverages-desc">Expanding market share for premium Latin American spirits, specialty coffees, and unique beverages through targeted channel development and positioning strategies.</p>
             </div>
           <div class="process-step">
               <div class="icon-container">
                    <i class="bi bi-cpu-fill industry-icon"></i>
               </div>
-              <h3>Technology & Electronics</h3>
-              <p>Showcasing Latin America's growing tech manufacturing capabilities to global markets.</p>
+              <h3 data-translate-key="tech-title">Technology & Electronics</h3>
+              <p data-translate-key="tech-desc">Positioning Latin America's innovative tech manufacturing capabilities to capture growing market share in global technology supply chains and emerge as a trusted source.</p>
           </div>
           <div class="process-step">
               <div class="icon-container">
                    <i class="bi bi-tools industry-icon"></i>
               </div>
-              <h3>Industrial Materials</h3>
-              <p>Supplying high-quality components and materials for global manufacturing and construction sectors.</p>
+              <h3 data-translate-key="industrial-title">Industrial Materials</h3>
+              <p data-translate-key="industrial-desc">Integrating high-quality Latin American materials and components into global manufacturing and construction supply chains through qualification and certification support.</p>
           </div>
       </div>
   </section>
@@ -225,36 +234,34 @@
   <section class="our-platform">
     <div class="container">
         <div class="section-header">
-            <h2>Our Intelligence & Success Platform</h2> <!-- Updated H2 -->
-            <p>Drive Success with Real-Time Data, Collaboration, and Insight</p> <!-- Updated Subtitle -->
+            <h2 data-translate-key="platform-title">Intelligent Deal Management</h2>
+            <p data-translate-key="platform-subtitle">Transform Your Export Operations with Data-Driven Visibility, Collaboration, and Actionable Insights</p>
         </div>
         <div class="platform-content">
             <div class="features">
                 <div class="feature">
-                    <h3>Real-Time Deal Tracking</h3>
-                    <!-- Updated -->
-                    <p>Monitor every deal milestone for proactive success management and complete operational transparency.</p>
+                    <h3 data-translate-key="deal-tracking-title">Real-Time Deal Tracking</h3>
+                    <p data-translate-key="deal-tracking-desc">Eliminate uncertainty with transparent monitoring of every deal milestone, enabling proactive issue resolution and creating accountability throughout the export process.</p>
                 </div>
                 <div class="feature">
-                    <h3>Collaborative Workspace</h3>
-                    <p>Streamline communication and document sharing between suppliers, buyers, and Dommio experts.</p>
+                    <h3 data-translate-key="workspace-title">Collaborative Workspace</h3>
+                    <p data-translate-key="workspace-desc">Accelerate deal progress through streamlined communication and document sharing between all stakeholders, reducing delays and miscommunication risks.</p>
                 </div>
                 <div class="feature">
-                    <h3>Actionable Intelligence Dashboard</h3> <!-- Renamed -->
-                     <!-- Updated -->
-                    <p>Gain critical insights from performance data and market trends to optimize strategy and drive continuous success.</p>
+                    <h3 data-translate-key="dashboard-title">Actionable Intelligence Dashboard</h3>
+                    <p data-translate-key="dashboard-desc">Make informed strategic decisions based on performance analytics and market trend data, continuously optimizing your approach for sustainable growth.</p>
                 </div>
                 <div class="feature">
-                    <h3>Secure Document Hub</h3>
-                    <p>Centralized, secure storage for all contracts, certifications, and trade documents.</p>
+                    <h3 data-translate-key="doc-hub-title">Secure Document Hub</h3>
+                    <p data-translate-key="doc-hub-desc">Eliminate documentation headaches with centralized, secure storage and management of all export-related contracts, certifications, and trade documents.</p>
                 </div>
-                 <div class="feature">
-                    <h3>Milestone Payment Tracking</h3>
-                    <p>Monitor payment schedules and confirmations linked to key shipment milestones for enhanced security and trust.</p>
+                <div class="feature">
+                    <h3 data-translate-key="payment-title">Milestone Payment Tracking</h3>
+                    <p data-translate-key="payment-desc">Enhance financial predictability and trust through transparent payment schedule tracking linked to verified shipment milestones and status updates.</p>
                 </div>
             </div>
             <div class="platform-visual">
-                <img src="https://placehold.co/600x400/4A90E2/FFFFFF?text=Dommio+Intelligence+Platform" alt="Dommio International Intelligence & Success Platform Interface"> <!-- Updated Alt Text -->
+                <img src="https://placehold.co/600x400/4A90E2/FFFFFF?text=Dommio+Intelligence+Platform" alt="Dommio International Intelligence & Success Platform Interface">
             </div>
         </div>
     </div>
@@ -262,20 +269,20 @@
 
   <section class="contact-us" id="contact-us-section">
     <div class="container">
-      <h2>Connect With Dommio</h2> <!-- Updated H2 -->
-      <p>Partner with Dommio for intelligent, data-driven, and sustainable global growth.</p> <!-- Updated Subtitle -->
+      <h2 data-translate-key="connect-title">Connect With Dommio</h2>
+      <p data-translate-key="connect-subtitle">Start your journey to intelligent, data-driven global growth with a personalized export or sourcing consultation.</p>
       <form id="contactForm">
         <label for="from_name" class="visually-hidden">Your Name</label>
-        <input type="text" id="from_name" name="from_name" placeholder="Your Name" required>
+        <input type="text" id="from_name" name="from_name" data-translate-key="name" placeholder="Your Name" required>
         <label for="company" class="visually-hidden">Your Company</label>
-        <input type="text" id="company" name="company" placeholder="Your Company">
+        <input type="text" id="company" name="company" data-translate-key="company" placeholder="Your Company">
         <label for="from_email" class="visually-hidden">Your Email</label>
-        <input type="email" id="from_email" name="from_email" placeholder="Your Email" required>
+        <input type="email" id="from_email" name="from_email" data-translate-key="email" placeholder="Your Email" required>
         <label for="phone" class="visually-hidden">Your Phone Number</label>
-        <input type="tel" id="phone" name="phone" placeholder="Your Phone Number">
+        <input type="tel" id="phone" name="phone" data-translate-key="phone" placeholder="Your Phone Number">
         <label for="message" class="visually-hidden">Your Message</label>
-        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
-        <button type="submit" id="submitButton">Send Message</button>
+        <textarea id="message" name="message" data-translate-key="message" placeholder="Your Message" required></textarea>
+        <button type="submit" id="submitButton" data-translate-key="send">Send Message</button>
         <div id="formResponse"></div>
       </form>
     </div>
@@ -283,36 +290,35 @@
 
   <section class="faq-section">
     <div class="container">
-        <h2>Frequently Asked Questions</h2>
-        <!-- Updated/Added FAQs -->
+        <h2 data-translate-key="faq-title">Frequently Asked Questions</h2>
         <div class="faq-item">
-            <button class="faq-question">How does Dommio use sales intelligence?</button>
+            <button class="faq-question" data-translate-key="faq-q1">How does Dommio use sales intelligence?</button>
             <div class="faq-answer">
-                <p>We employ data analytics, market trend analysis, and AI-powered tools to identify high-potential markets and buyers, understand competitive landscapes, personalize outreach, optimize sales strategies, and track performance. Our platform provides clients with actionable insights derived from this intelligence for smarter decision-making.</p>
+                <p data-translate-key="faq-a1">We transform export outcomes through our multi-layered intelligence approach: market analytics identify optimal opportunities, AI-powered tools qualify promising leads, competitive landscape analysis shapes positioning, personalized outreach strategies drive engagement, and performance tracking enables continuous optimization. This unified intelligence framework consistently delivers higher success rates and faster market penetration for our clients.</p>
             </div>
         </div>
         <div class="faq-item">
-            <button class="faq-question">What does 'Customer Success' mean for Dommio?</button>
+            <button class="faq-question" data-translate-key="faq-q2">What does 'Customer Success' mean for Dommio?</button>
             <div class="faq-answer">
-                <p>Customer Success means we're invested in your long-term growth beyond the initial deal. We provide ongoing support, manage buyer relationships proactively, monitor performance via our platform, offer market insights, and facilitate communication to ensure lasting partnerships, satisfaction, and repeat business.</p>
+                <p data-translate-key="faq-a2">Customer Success is our commitment to your long-term growth beyond the initial transaction. We actively manage buyer relationships, provide ongoing performance insights, facilitate strategic communication, and proactively identify expansion opportunities. This approach transforms single deals into lasting partnerships with predictable repeat business, ultimately building your sustainable global presence.</p>
             </div>
         </div>
          <div class="faq-item">
-            <button class="faq-question">How is Dommio different from traditional export brokers?</button>
+            <button class="faq-question" data-translate-key="faq-q3">How is Dommio different from traditional export brokers?</button>
             <div class="faq-answer">
-                <p>We go beyond basic matchmaking. We offer a strategic partnership focused on diversification into specific non-US markets (Europe, Asia, ME), powered by data intelligence. Our emphasis on expert sales facilitation and long-term Customer Success, supported by our transparent platform, sets us apart.</p>
+                <p data-translate-key="faq-a3">Unlike traditional brokers who simply match buyers and sellers, Dommio provides an intelligence-powered strategic partnership focused on sustainable growth. We combine data-driven market insights, proactive sales facilitation, and dedicated customer success to create lasting partnerships. Our transparent approach with real-time visibility into the entire export process builds trust and accountability, consistently delivering higher success rates and long-term value.</p>
             </div>
         </div>
         <div class="faq-item">
-            <button class="faq-question">Which specific markets do you focus on outside the US?</button>
+            <button class="faq-question" data-translate-key="faq-q4">Which global markets do you specialize in?</button>
             <div class="faq-answer">
-                <p>Our primary focus for market diversification is on key regions within Europe (including the UK), Asia (East Asia, Southeast Asia), and the Middle East. We tailor strategies based on product type and specific country opportunities within these broader regions.</p>
+                <p data-translate-key="faq-a4">We help Latin American suppliers diversify and expand globally, with particular expertise in key regions across Europe, Asia, and the Middle East. While these regions represent significant growth opportunities, our approach is tailored to each client's specific products, competitive advantages, and strategic goals. We identify the optimal mix of established and emerging markets to build a resilient, diversified export portfolio.</p>
             </div>
         </div>
         <div class="faq-item">
-            <button class="faq-question">How does your platform provide transparency?</button>
+            <button class="faq-question" data-translate-key="faq-q5">How does your platform provide transparency?</button>
             <div class="faq-answer">
-                <p>Our secure online platform gives both suppliers and buyers real-time visibility into deal progress, communication logs, document status, payment milestones, and performance analytics. This shared view eliminates uncertainty and fosters trust throughout the export/import process.</p>
+                <p data-translate-key="faq-a5">Our intelligent deal management approach delivers unprecedented visibility by providing both suppliers and buyers with real-time access to deal progress, communication records, document status, payment milestones, and performance analytics. This transparency eliminates uncertainty, enables proactive issue resolution, and builds the trust necessary for successful long-term partnerships throughout the export/import journey.</p>
             </div>
         </div>
     </div>
@@ -322,18 +328,17 @@
     <div class="footer-container">
       <div class="footer-section">
         <h3>Dommio International</h3>
-        <!-- Updated Footer Desc -->
-        <p>Driving LATAM export success through market intelligence and lasting partnerships.</p>
+        <p>Transforming LATAM exports through intelligence, expertise, and dedicated partnership success.</p>
       </div>
       <div class="footer-section">
         <h3>Quick Links</h3>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">For Buyers</a></li>
-          <li><a href="#">For Suppliers</a></li>
-           <li><a href="#contact-us-section">Contact</a></li>
+          <li><a href="#" data-translate-key="home">Home</a></li>
+          <li><a href="#" data-translate-key="about">About Us</a></li>
+          <li><a href="#" data-translate-key="services">Services</a></li>
+          <li><a href="#" data-translate-key="for-buyers">For Buyers</a></li>
+          <li><a href="#" data-translate-key="for-suppliers">For Suppliers</a></li>
+           <li><a href="#contact-us-section" data-translate-key="contact">Contact</a></li>
         </ul>
       </div>
       <div class="footer-section">
