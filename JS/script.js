@@ -243,7 +243,7 @@ document.addEventListener('DOMContentLoaded', function() {
       "audience-placeholder": "Select buyer or supplier",
       "audience-buyer": "Buyer",
       "audience-supplier": "Supplier",
-      "buyer-introduction": "Tell us what you need to buy. DommioGlobal identifies potential Latin American suppliers and manages the commercial conversation—from product questions and quotations through negotiation and order follow-up.",
+      "buyer-introduction": "We help you find Latin American suppliers that match your requirements and manage the commercial process—from supplier search and offers to negotiations, order confirmation, and repeat purchases.",
       "page-title": "DommioGlobal | Latin American Suppliers & International Buyers",
       "commission-title": "A Clear Model for Both Sides",
       "footer-description": "Helping Latin American suppliers and international buyers move business forward through clear offers and consistent follow-up.",
@@ -338,7 +338,7 @@ document.addEventListener('DOMContentLoaded', function() {
       "faq-q4": "Which markets do you work with?",
       "faq-a4": "We help Latin American suppliers explore international opportunities. The markets considered depend on the product, buyer requirements, and the supplier’s ability to serve them.",
       "faq-q5": "How will I receive updates?",
-      "faq-a5": "You receive updates on buyer responses, quotation status, and open questions, with clear next steps so you know where each opportunity stands.",
+      "faq-a5": "You receive updates on buyer or supplier responses, quotation status, and open questions, with clear next steps so you know where each opportunity stands.",
       "faq-q6": "How do you charge for your services?",
       "faq-a6": "There are no upfront fees. The supplier’s commission is agreed in writing before work begins and is payable upon receiving payment from the buyer. Buyers pay no additional fee for supplier sourcing and commercial management."
     },
@@ -353,7 +353,7 @@ document.addEventListener('DOMContentLoaded', function() {
       "audience-placeholder": "Seleccione comprador o proveedor",
       "audience-buyer": "Comprador",
       "audience-supplier": "Proveedor",
-      "buyer-introduction": "Cuéntenos qué necesita comprar. En DommioGlobal buscamos proveedores latinoamericanos que se ajusten a sus necesidades y nos encargamos de la gestión comercial: presentamos opciones, coordinamos cotizaciones, apoyamos la negociación y damos seguimiento a sus pedidos y futuras compras.",
+      "buyer-introduction": "Le ayudamos a encontrar proveedores latinoamericanos que se ajusten a sus requisitos y gestionamos el proceso comercial: desde la búsqueda de proveedores y la presentación de ofertas hasta la negociación, la confirmación de pedidos y las compras recurrentes.",
       "page-title": "DommioGlobal | Proveedores latinoamericanos y compradores internacionales",
       "commission-title": "Un modelo claro para ambas partes",
       "footer-description": "Ayudamos a proveedores latinoamericanos y compradores internacionales a avanzar en sus negocios con ofertas claras y seguimiento constante.",
@@ -446,7 +446,7 @@ document.addEventListener('DOMContentLoaded', function() {
       "faq-q4": "¿Con qué mercados trabajan?",
       "faq-a4": "Buscamos oportunidades para proveedores latinoamericanos en mercados internacionales. La selección depende del producto, los requisitos del comprador y la capacidad del proveedor para abastecer ese mercado.",
       "faq-q5": "¿Cómo me mantendrán informado?",
-      "faq-a5": "Le compartimos los avances de cada oportunidad: contactos realizados, interés recibido, propuestas enviadas, negociaciones en curso y próximos pasos. También le avisamos cuando necesitamos información o una decisión de su parte.",
+      "faq-a5": "Le compartimos los avances de cada oportunidad: contactos realizados, respuestas de compradores o proveedores, propuestas enviadas, negociaciones en curso y próximos pasos. También le avisamos cuando necesitamos información o una decisión de su parte.",
       "faq-q6": "¿Cómo cobran sus servicios?",
       "faq-a6": "No solicitamos anticipos. La comisión del proveedor se acuerda por escrito antes de comenzar y se paga cuando recibe el pago del comprador. Los compradores no pagan una tarifa adicional por la búsqueda de proveedores y la gestión comercial."
     }
