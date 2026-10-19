@@ -322,6 +322,24 @@ header nav ul li a:hover::after {
   font-size: 18px;
 }
 
+/* Commission model */
+.commission-section {
+  padding: 45px 0;
+  background-color: var(--light-background);
+  text-align: center;
+}
+
+.commission-section h2 {
+  margin-top: 0;
+}
+
+.commission-section p {
+  max-width: 800px;
+  margin: 0 auto 25px;
+  font-size: 18px;
+  color: var(--light-text-color);
+}
+
 /* Tabs Section General */
 .tabs-section {
   padding: 80px 0; /* Reduced top padding */
@@ -344,6 +362,14 @@ header nav ul li a:hover::after {
   color: var(--light-text-color);
   max-width: 750px; /* Wider description */
   margin: 0 auto;
+}
+
+.buyer-introduction {
+  max-width: 800px;
+  margin: 0 auto 30px;
+  text-align: center;
+  font-size: 18px;
+  color: var(--light-text-color);
 }
 
 /* Tabs Styling */
@@ -1102,7 +1128,13 @@ footer {
   }
 
   .hero { 
-    height: 85vh; /* Adjust hero height on mobile */
+    height: auto;
+  }
+
+  .hero-content {
+    height: auto;
+    min-height: 85vh;
+    box-sizing: border-box;
   } 
   
   .hero-content h1 { 
