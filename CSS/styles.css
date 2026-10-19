@@ -366,7 +366,7 @@ header nav ul li a:hover::after {
   margin: 0 auto;
 }
 
-.buyer-introduction {
+.tab-introduction {
   max-width: 800px;
   margin: 0 auto 30px;
   text-align: center;
@@ -1294,7 +1294,7 @@ footer {
     width: 80%; /* Wider button on small screens */
   }
 
-  .what-we-do-title p,
+  .tab-introduction,
   .section-header p,
   .contact-us p {
     font-size: 15px;
