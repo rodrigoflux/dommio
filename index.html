@@ -265,15 +265,15 @@
           <option value="buyer" data-translate-key="audience-buyer">Buyer</option>
           <option value="supplier" data-translate-key="audience-supplier">Supplier</option>
         </select>
-        <label for="from_name" class="visually-hidden">Your Name</label>
+        <label for="from_name" class="visually-hidden" data-translate-key="name">Your Name</label>
         <input type="text" id="from_name" name="from_name" data-translate-key="name" placeholder="Your Name" required>
-        <label for="company" class="visually-hidden">Your Company</label>
+        <label for="company" class="visually-hidden" data-translate-key="company">Your Company</label>
         <input type="text" id="company" name="company" data-translate-key="company" placeholder="Your Company">
-        <label for="from_email" class="visually-hidden">Your Email</label>
+        <label for="from_email" class="visually-hidden" data-translate-key="email">Your Email</label>
         <input type="email" id="from_email" name="from_email" data-translate-key="email" placeholder="Your Email" required>
-        <label for="phone" class="visually-hidden">Your Phone Number</label>
+        <label for="phone" class="visually-hidden" data-translate-key="phone">Your Phone Number</label>
         <input type="tel" id="phone" name="phone" data-translate-key="phone" placeholder="Your Phone Number">
-        <label for="message" class="visually-hidden">Your Message</label>
+        <label for="message" class="visually-hidden" data-translate-key="message">Your Message</label>
         <textarea id="message" name="message" data-translate-key="message" placeholder="Your Message" required></textarea>
         <button type="submit" id="submitButton" data-translate-key="send">Send Message</button>
         <div id="formResponse"></div>
@@ -300,6 +300,12 @@
             <button class="faq-question" data-translate-key="faq-q3">How do you keep commercial discussions moving?</button>
             <div class="faq-answer">
                 <p data-translate-key="faq-a3">We gather outstanding questions, follow up with the relevant parties, and clarify responses before passing them on. That means less time chasing separate replies and a clearer view of what still needs to be decided.</p>
+            </div>
+        </div>
+        <div class="faq-item" id="logistics-faq">
+            <button class="faq-question" data-translate-key="faq-logistics-question">Who handles logistics?</button>
+            <div class="faq-answer">
+                <p data-translate-key="faq-logistics-answer">The supplier and buyer agree on transport and delivery responsibilities. Our work focuses on managing the commercial process, maintaining the communication needed to follow up on the transaction.</p>
             </div>
         </div>
         <div class="faq-item">
