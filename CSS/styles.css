@@ -335,11 +335,29 @@ header nav ul li a:hover::after {
   margin-top: 0;
 }
 
-.commission-section p {
-  white-space: pre-line;
-  max-width: 800px;
-  margin: 0 auto 25px;
-  font-size: 18px;
+.commission-options {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+  gap: 25px;
+  max-width: 1000px;
+  margin: 30px auto 0;
+}
+
+.commission-option {
+  padding: 28px;
+  background-color: var(--white);
+  border: 1px solid #eee;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.commission-option h3 {
+  margin-top: 0;
+}
+
+.commission-option p {
+  margin: 0;
+  font-size: 16px;
   color: var(--light-text-color);
 }
 
