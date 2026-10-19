@@ -745,6 +745,7 @@ header nav ul li a:hover::after {
 }
 
 .contact-us input,
+.contact-us select,
 .contact-us textarea {
   width: 100%; /* Use 100% width */
   box-sizing: border-box; /* Include padding in width */
@@ -758,10 +759,22 @@ header nav ul li a:hover::after {
 }
 
 .contact-us input:focus,
+.contact-us select:focus,
 .contact-us textarea:focus {
   border-color: var(--primary-color);
   outline: none;
   box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2); /* Focus outline */
+}
+
+.contact-us .audience-label {
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+.contact-us select {
+  background-color: var(--white);
+  color: var(--text-color);
 }
 
 .contact-us textarea {
