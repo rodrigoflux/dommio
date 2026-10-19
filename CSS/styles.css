@@ -23,6 +23,11 @@ body {
   overflow-x: hidden; /* Prevent horizontal scroll */
 }
 
+/* Keep anchor destinations clear of the fixed header. */
+section[id], .tab-content[id] {
+  scroll-margin-top: 100px;
+}
+
 h1, h2, h3 {
   font-family: var(--heading-font);
   font-weight: 700; /* Bolder headings */

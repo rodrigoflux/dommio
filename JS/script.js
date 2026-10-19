@@ -110,6 +110,13 @@ document.addEventListener('DOMContentLoaded', function() {
         const targetElement = document.querySelector(targetId);
         if (targetElement) {
           e.preventDefault();
+          // Reveal tab content before scrolling to a buyer or supplier link.
+          if (targetElement.classList.contains('tab-content')) {
+            const targetTab = Array.from(tabs).find(tab =>
+              `${tab.getAttribute('data-tab')}-content` === targetElement.id
+            );
+            if (targetTab) targetTab.click();
+          }
           targetElement.scrollIntoView({
             behavior: 'smooth',
             block: 'start'
