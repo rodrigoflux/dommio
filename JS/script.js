@@ -4,22 +4,47 @@ document.addEventListener('DOMContentLoaded', function() {
   const tabs = document.querySelectorAll('.tab');
   const tabContents = document.querySelectorAll('.tab-content');
 
+  const audienceSelect = document.getElementById('inquiry_type');
+
+  // Show one audience's services and mirror the choice in the contact form.
+  function activateTab(tabId, syncForm) {
+      tabs.forEach(t => {
+          const isActive = t.getAttribute('data-tab') === tabId;
+          t.classList.toggle('active', isActive);
+          t.setAttribute('aria-selected', String(isActive));
+          t.setAttribute('tabindex', isActive ? '0' : '-1');
+      });
+      tabContents.forEach(content => {
+          content.classList.toggle('active', content.id === `${tabId}-content`);
+      });
+      if (syncForm && audienceSelect) {
+          audienceSelect.value = tabId === 'buyers' ? 'buyer' : 'supplier';
+      }
+  }
+
   if (tabs.length > 0 && tabContents.length > 0) {
-      tabs.forEach(tab => {
-          tab.addEventListener('click', () => {
-              const tabId = tab.getAttribute('data-tab');
-
-              // Remove active class from all tabs and contents
-              tabs.forEach(t => t.classList.remove('active'));
-              tabContents.forEach(content => content.classList.remove('active'));
-
-              // Add active class to clicked tab and corresponding content
-              tab.classList.add('active');
-              const activeContent = document.getElementById(`${tabId}-content`);
-              if (activeContent) {
-                  activeContent.classList.add('active');
-              }
+      tabs.forEach((tab, index) => {
+          tab.addEventListener('click', () => activateTab(tab.getAttribute('data-tab'), true));
+          tab.addEventListener('keydown', event => {
+              if (event.key !== 'ArrowRight' && event.key !== 'ArrowLeft') return;
+              const next = tabs[(index + (event.key === 'ArrowRight' ? 1 : -1) + tabs.length) % tabs.length];
+              next.focus();
+              activateTab(next.getAttribute('data-tab'), true);
           });
+      });
+  }
+
+  // Hero "For Suppliers" / "For Buyers" buttons pick the side up front.
+  document.querySelectorAll('.audience-link').forEach(link => {
+      link.addEventListener('click', () => {
+          activateTab(link.getAttribute('data-audience') === 'buyer' ? 'buyers' : 'suppliers', true);
+      });
+  });
+
+  // Choosing a side in the form keeps the services view in step.
+  if (audienceSelect) {
+      audienceSelect.addEventListener('change', () => {
+          activateTab(audienceSelect.value === 'buyer' ? 'buyers' : 'suppliers', false);
       });
   }
 
